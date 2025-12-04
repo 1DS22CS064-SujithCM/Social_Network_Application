@@ -3,7 +3,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
 const UserContext = createContext();
-axios.defaults.baseURL = "https://social-network-application-wqi9.onrender.com";
+axios.defaults.baseURL = "https://social-network-application-1.onrender.com";
 axios.defaults.withCredentials = true;
 export const UserContextProvider = ({ children }) => {
   const [user, setUser] = useState([]);
