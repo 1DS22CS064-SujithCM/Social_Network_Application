@@ -11,7 +11,7 @@ import path from "path";
 import axios from 'axios';
 import cors from "cors"; 
 
-const url = `https://social-network-application-wqi9.onrender.com`;
+const url = `https://social-network-application-1.onrender.com`;
 const interval = 30000;
 
 function reloadWebsite() {
