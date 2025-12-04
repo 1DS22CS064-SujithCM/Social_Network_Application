@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { UserData } from "./UserContext";
 
 // const EndPoint = "https://mern-social-3e3m.onrender.com";
-const EndPoint = "https://social-network-application-wqi9.onrender.com"; // or 8000 or the port your backend uses
+const EndPoint = "https://social-network-application-1.onrender.com"; // or 8000 or the port your backend uses
 
 
 const SocketContext = createContext();
